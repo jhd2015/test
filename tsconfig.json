@@ -1,0 +1,25 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "noEmit": true,
+    "skipLibCheck": false,
+    "resolveJsonModule": true
+  },
+  "include": [
+    "*.js",
+    "antm.config.ts",
+    "packages/*/*.js",
+    "packages/*/*.d.ts",
+    "packages/**/src",
+    "packages/**/config",
+    "packages/**/site",
+    "packages/**/utils",
+    "packages/**/ui",
+    "packages/**/types",
+    "packages/**/sample",
+    "packages/**/__test__",
+    "packages/**/scripts/**/*.js",
+    "packages/**/antm.config.ts"
+  ]
+}
